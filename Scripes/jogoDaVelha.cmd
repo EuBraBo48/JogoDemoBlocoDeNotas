@@ -2,7 +2,7 @@
 SETLOCAL ENABLEDELAYEDEXPANSION
 ECHO.
 echo                        ************************************
-Echo                         JOGO DA VELHA FEITO POR JONAS
+Echo                         JOGO DA VELHA FEITO POR E4brab6
 echo                        ************************************
 echo.
 echo 1 - Computador Facil.
