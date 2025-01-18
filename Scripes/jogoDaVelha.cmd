@@ -3,7 +3,7 @@ color e
 SETLOCAL ENABLEDELAYEDEXPANSION
 ECHO.
 echo                        ************************************
-Echo                         JOGO DA VELHA FEITO POR E4brab6
+Echo                         JOGO DA VELHA FEITO POR EuBrabo
 echo                        ************************************
 echo.
 echo 1 - Computador Facil.
