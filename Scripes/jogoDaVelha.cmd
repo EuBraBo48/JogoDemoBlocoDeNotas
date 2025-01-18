@@ -1,4 +1,5 @@
 @echo off
+color e
 SETLOCAL ENABLEDELAYEDEXPANSION
 ECHO.
 echo                        ************************************
@@ -17,6 +18,8 @@ FOR /L %%A IN (1,1,9) DO SET NUM%%A=
 SET GP=
 SET CONT=
 SET JOG=
+
+set "CaminhoRaiz=%cd%"
 
 if "%OPT%"=="5" EXIT
 FOR /L %%A IN (1,1,54) DO SET A%%A=       
@@ -206,7 +209,7 @@ GOTO %VOLTA%
 ECHO PARABENS, VOCE GANHOU.
 SET /P J=Deseja jogar novamente? (S/N):
 IF "%J%"=="S" GOTO C
-IF "%J%"=="N" EXIT
+IF "%J%"=="N" start EXIT
 IF "%J%"=="s" GOTO C
 IF "%J%"=="n" EXIT
 EXIT

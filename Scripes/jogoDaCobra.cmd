@@ -1,4 +1,6 @@
 @echo off
+color a
+
 
 if "%~1" == "startGame" goto :game
 
